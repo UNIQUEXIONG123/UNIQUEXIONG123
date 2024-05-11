@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T17:00:19.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="k9aMNYmi745LIvgYADMW" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T17:08:04.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="x6WWkprwmc3L3biEUZyr" version="24.4.0" type="github">
   <diagram name="第 1 页" id="ewijwr4XluIojpZv05pp">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="510" y="380" as="sourcePoint" />
             <mxPoint x="800" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLcMzcO36znTxegeTcKf-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;NoiseFilter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get_short_name(self)&lt;br&gt;+ filter_parameter_regressor(self, features)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ process(self, img, param, defog, IcA)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="150" width="280" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="wLcMzcO36znTxegeTcKf-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLcMzcO36znTxegeTcKf-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="330" as="sourcePoint" />
+            <mxPoint x="760" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
